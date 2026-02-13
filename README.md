@@ -72,7 +72,7 @@ GestureAnatomy allows users to explore anatomical and biological 3D models in au
 
 3. **Load the Scene**
    - In the Project window, navigate to `Assets/Scenes/`
-   - Drag `SampleScene` to the Hierarchy window to replace the default `Untitled` scene
+   - Drag `MainScene` to the Hierarchy window to replace the default `Untitled` scene
    - Or double-click `SampleScene` to open it
 
 4. **Install Meta XR SDK** (if not already installed)
@@ -81,7 +81,7 @@ GestureAnatomy allows users to explore anatomical and biological 3D models in au
 
 5. **Configure Build Settings**
    - File > Build Settings
-   - Add `SampleScene` to build
+   - Add `MainScene` to build
    - Player Settings > XR Plug-in Management > Enable Oculus
 
 6. **Test in Unity Editor**
@@ -100,7 +100,7 @@ Assets/
 ├── Models/                                 # 3D anatomical models
 ├── Materials/                              # Model materials
 └── Scenes/
-    └── SampleScene.unity                   # Main application scene
+    └── MainScene.unity                   # Main application scene
 ```
 
 ## 🎓 Development Context
