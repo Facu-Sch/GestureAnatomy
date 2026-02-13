@@ -2,6 +2,9 @@
 
 An interactive 3D anatomical and biological model viewer for Meta Quest, using hand microgestures for intuitive navigation and exploration. Built as an exploration of Meta's microgesture capabilities applied to bioengineering education.
 
+<img width="1919" height="722" alt="image" src="https://github.com/user-attachments/assets/b6bc66e1-bbd8-4ab5-aee8-6732f771d63f" />
+
+
 ## 🎯 Overview
 
 GestureAnatomy allows users to explore anatomical and biological 3D models in augmented reality using natural hand gestures. The application leverages Meta Quest's microgesture detection system to provide a touch-free, immersive visualization experience.
