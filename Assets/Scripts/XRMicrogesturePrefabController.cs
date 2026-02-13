@@ -14,6 +14,7 @@ public class XRMicrogesturePrefabController : MonoBehaviour
     [SerializeField] private float minDistance = 1f;
     [SerializeField] private float maxDistance = 10f;
     [SerializeField] private float initialDistance = 3f;
+    [SerializeField] private Vector3 positionOffset = new Vector3(0, 0.5f, 0); // Nuevo
     [SerializeField] private float transitionDuration = 1f;
 
     [Header("Gesture Event Sources")]
@@ -101,6 +102,8 @@ public class XRMicrogesturePrefabController : MonoBehaviour
     {
         var currentPrefab = prefabs[currentPrefabIndex];
         var targetPosition = xrCamera.transform.position + (xrCamera.transform.forward * initialDistance);
+        targetPosition += positionOffset; // Usar el offset configurable
+
         currentPrefab.transform.position = targetPosition;
 
         var directionToCamera = (xrCamera.transform.position - currentPrefab.transform.position).normalized;
