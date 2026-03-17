@@ -127,7 +127,7 @@ Contributions, issues, and feature requests are welcome!
 ## 👨‍💻 Author
 
 **Facundo Nahuel Schneider**
-- LinkedIn: [linkedin.com/in/facundo-schneider-a6045631b](https://www.linkedin.com/in/facundo-schneider-a6045631b)
+- LinkedIn: [linkedin.com/in/facundo-schneider](https://www.linkedin.com/in/facundo-schneider)
 - Email: facundoschneider5@gmail.com
 - University: FIUNER - Immersive Technologies Group
 
